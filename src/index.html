@@ -1,13 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>Analizador de texto</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Analyzer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+   
 </head>
 
-<body>
-  <script src="index.js" type="module"></script>
+<body class="body">
+
+
+  <h1 class="slackey-regular">Analyzer Text</h1> <!--indicacion para poner la fuente de letra-->
+
+  <div class="container">
+  <textarea id="textInput" rows="5" cols="50" placeholder="Enter text here" class="slackey-regular"></textarea>
+  </div>
+
+
+  <h2 class="slackey-regular"> 
+
+  <li id="wordCountResult">Number of words: </li>
+  <li id="numberofWords"></li> 
+  </h2>
+
+
+  <h3 class="slackey-regular">
+
+  <li id="charactercount">Number of Characters :</li>
+  <li id="numofCharacters"></li>
+  </h3>
+
+
+  <h4 class="slackey-regular">
+
+  <li id="characterCounExcludingSpaces">Number of Characteres Excluding Spaces :</li>
+  <li id="numofCharactersExcludingSpaces"></li>
+  </h4>
+
+
+  <h5 class="slackey-regular">
+
+  <li id="AverageWordLength"> Average Word Length :</li>
+  <li id="numberofaverageWordlength"></li>
+  </h5>
+
+
+  <h6 class="slackey-regular">
+
+  <li id="NumberCount"> Number Count :</li>
+  <li id="numberofnumbercount"></li>
+  </h6>
+
+
+  <h7 class="slackey-regular">
+
+  <li id="NumberSum"> Numbers Sum :</li>
+  <li id="numberofnumbersum"></li>
+
+  </h7>
+    
+
+
+  
+  <script type="module" src="index.js"></script>
+
 </body>
+
 </html>

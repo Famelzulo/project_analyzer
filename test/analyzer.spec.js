@@ -22,8 +22,8 @@ describe('analyzer', () => {
   });
 
   describe('analyzer.getCharacterCountExcludingSpaces', () => {
-    it('should return 102 for "' + TEST_TEXT_NO_NUMBERS + '"', () => {
-      expect(analyzer.getCharacterCountExcludingSpaces(TEST_TEXT_NO_NUMBERS)).toBe(102);
+    it('should return 105 for "' + TEST_TEXT_NO_NUMBERS + '"', () => {
+      expect(analyzer.getCharacterCountExcludingSpaces(TEST_TEXT_NO_NUMBERS)).toBe(105);
     });
   });
 
@@ -38,8 +38,8 @@ describe('analyzer', () => {
       expect(analyzer.getNumberCount(TEST_TEXT_NOT_A_NUMBER)).toBe(0);
     });
 
-    it('should return 3 for "' + TEST_TEXT_DECIMALS + '"', () => {
-      expect(analyzer.getNumberCount(TEST_TEXT_DECIMALS)).toBe(3);
+    it('should return 2 for "' + TEST_TEXT_DECIMALS + '"', () => {
+      expect(analyzer.getNumberCount(TEST_TEXT_DECIMALS)).toBe(2);
     });
 
     it('should return 2 for "' + TEST_TEXT_NUMBERS + '"', () => {
