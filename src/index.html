@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<header>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Text Analyzer</title>
@@ -10,57 +10,57 @@
 
   <link rel="stylesheet" href="style.css">
    
-</head>
+</header>
 
 <body class="body">
 
 
-  <h1 class="slackey-regular">Analyzer Text</h1> <!--indicacion para poner la fuente de letra-->
+  <h1 class="slackey-regular">Analyzer Text</h1> <!--indicacion para poner la fuente de lededicar mas tiempo para  prueba y error,tra-->
 
   <div class="container">
-  <textarea id="textInput" rows="5" cols="50" placeholder="Enter text here" class="slackey-regular"></textarea>
+  <textarea id="textInput" rows="5" cols="50" placeholder="Enter text here" class="slackey-regular" name="user-input"></textarea>
   </div>
 
 
   <h2 class="slackey-regular"> 
 
   <li id="wordCountResult">Number of words: </li>
-  <li id="numberofWords"></li> 
+  <li id="numberofWords" data-testid="word-count"></li> 
   </h2>
 
 
   <h3 class="slackey-regular">
 
   <li id="charactercount">Number of Characters :</li>
-  <li id="numofCharacters"></li>
+  <li id="numofCharacters" data-testid="character-count"></li>
   </h3>
 
 
   <h4 class="slackey-regular">
 
   <li id="characterCounExcludingSpaces">Number of Characteres Excluding Spaces :</li>
-  <li id="numofCharactersExcludingSpaces"></li>
+  <li id="numofCharactersExcludingSpaces" data-testid="character-no-spaces-count"></li>
   </h4>
 
 
   <h5 class="slackey-regular">
 
   <li id="AverageWordLength"> Average Word Length :</li>
-  <li id="numberofaverageWordlength"></li>
+  <li id="numberofaverageWordlength" data-testid="word-length-average"></li>
   </h5>
 
 
   <h6 class="slackey-regular">
 
   <li id="NumberCount"> Number Count :</li>
-  <li id="numberofnumbercount"></li>
+  <li id="numberofnumbercount" data-testid="number-count"></li>
   </h6>
 
 
   <h7 class="slackey-regular">
 
   <li id="NumberSum"> Numbers Sum :</li>
-  <li id="numberofnumbersum"></li>
+  <li id="numberofnumbersum" data-testid="number-sum"></li>
 
   </h7>
     

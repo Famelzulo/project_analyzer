@@ -8,7 +8,7 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
 
-.slackey-regular {
+const style.slackey-regular {
     font-family: "Slackey", sans-serif;
     font-weight: 400;
     font-style: normal;
