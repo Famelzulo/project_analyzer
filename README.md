@@ -5,7 +5,7 @@
 * [1. Consideraciones generales](#1-consideraciones-generales)
 * [2. Preámbulo](#2-preámbulo)
 * [3. Resumen del proyecto](#3-resumen-del-proyecto)
-* [4. Funcionalidades](#4-funcionalidades)
+* [4. Funcionalidades](#4-funcionalidades
 * [5. Boilerplate](#5-boilerplate)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Pruebas](#7-pruebas)
