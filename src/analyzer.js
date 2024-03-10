@@ -11,7 +11,20 @@ const analyzer = {
     // Obtener el contenido del textarea
     //  const text = document.getElementById('textInput').value;
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
-    return text.length;
+    function getCharacterCount(str) {
+      var code, i, len;
+    
+      for (i = 0, len = str.length; i < len; i++) {
+        code = str.charCodeAt(i);
+        if (!(code > 47 && code < 58) ||// numeric (0-9)
+            !(code > 64 && code < 91) || // upper alpha (A-Z)
+            !(code > 96 && code < 123)) { // lower alpha (a-z)
+  
+              
+        }
+      }
+      return true;
+    }
   },
 
   getCharacterCountExcludingSpaces: (text) => {
@@ -28,7 +41,6 @@ const analyzer = {
     const textWithoutSpaces = wordsArray.join(''); // unir palabras sin espacio
     return textWithoutSpaces.length;
   },
-
   getAverageWordLength: (text) => {
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
     const txt = text.trim(); // trim remueve espacios del inicio y final del texto
@@ -67,19 +79,20 @@ const analyzer = {
 
   getNumberSum: (text) => {
 
-    // //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
-    // let count = 0; // usado para contar caracteres numericos
+     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
+     let count = 0; // usado para contar caracteres numericos
 
-    // for (let i = 0; i < text.length; i++) { // va tras cada caracter
-    //   // Check if the character is a digit
-    //   if (!isNaN(parseInt(text[i]))) { // si no es un numero no hacer nada(! isnan (probar
+    for (let i = 0; i < text.length; i++) { // va tras cada caracter
+       // Check if the character is a digit
+       if (!isNaN(parseInt(text[i]))) { // si no es un numero no hacer nada(! isnan (probar
     
-    //     // no hace nada
-    //   } else { // else si es que es un numero ----
-    //     count = count + parseInt(text[i]); // suma todos
-    //   }
-    // }
-    // return count;
+         // no hace nada
+       } else { // else si es que es un numero ----
+         count = count + parseInt(text[i]); // suma todos
+       }
+    
+     }
+     return count;
 
 
     // --------- set de caracteres permitidos para un numero ----- 
