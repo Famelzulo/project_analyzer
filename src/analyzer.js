@@ -64,7 +64,7 @@ const analyzer = {
       // Check if the character is a digit
       if (word.match(/^-?\d+$/) || word.match(/^\d+\.\d+$/)) { // regex expresion para comparacion estricta para numero enteros y decimales(limitante)
         // no hace nada
-        console.log("--", word)
+        // console.log("--", word)
         count++;
       }
     })
@@ -96,7 +96,7 @@ const analyzer = {
     for (let i = 0; i < words.length; i++) { // va tras cada caracter
       // Check if the character is a digit
       if (!isNaN(parseFloat(words[i])) && containsOnlyNumbers(words[i])) { // !isNaN verifica si es un numero valido
-        console.log("is number", words[i])
+        // console.log("is number", words[i])
         count += parseFloat(words[i])
       }
     }
@@ -140,6 +140,5 @@ const analyzer = {
   }
 }
 //document.getElementById("myForm").reset();  
-
 
 export default analyzer;
