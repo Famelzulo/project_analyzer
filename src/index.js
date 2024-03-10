@@ -65,3 +65,10 @@ textField.addEventListener("input", () => {
   numberofnumberSum.textContent = numberSum;
 
 })
+
+function reset () {
+  const textarea = document.getElementById("textInput");
+  textarea.value = "";
+}
+
+document.getElementById("reset-button").addEventListener("click",reset,false)

@@ -9,64 +9,69 @@
 
 
   <link rel="stylesheet" href="style.css">
-   
+
 </header>
 
 <body class="body">
 
-
-  <h1 class="slackey-regular">Analyzer Text</h1> <!--indicacion para poner la fuente de lededicar mas tiempo para  prueba y error,tra-->
+  <script type="module" src="index.js"></script>
+  <h1 class="slackey-regular">Analyzer Text</h1>
+  <!--indicacion para poner la fuente de lededicar mas tiempo para  prueba y error,tra-->
 
   <div class="container">
-  <textarea id="textInput" rows="5" cols="50" placeholder="Enter text here" class="slackey-regular" name="user-input"></textarea>
+    <textarea id="textInput" rows="5" cols="50" placeholder="Enter text here" class="slackey-regular"
+      name="user-input"></textarea>
+
   </div>
 
+  <input type = "button" value = "Reset data"  id ="reset-button"/>  
 
-  <h2 class="slackey-regular"> 
 
-  <li id="wordCountResult">Number of words: </li>
-  <li id="numberofWords" data-testid="word-count"></li> 
+  <h2 class="slackey-regular">
+
+    <li id="wordCountResult">Number of words: </li>
+    <li id="numberofWords" data-testid="word-count"></li>
   </h2>
 
 
   <h3 class="slackey-regular">
 
-  <li id="charactercount">Number of Characters :</li>
-  <li id="numofCharacters" data-testid="character-count"></li>
+    <li id="charactercount">Number of Characters :</li>
+    <li id="numofCharacters" data-testid="character-count"></li>
   </h3>
 
 
   <h4 class="slackey-regular">
 
-  <li id="characterCounExcludingSpaces">Number of Characteres Excluding Spaces :</li>
-  <li id="numofCharactersExcludingSpaces" data-testid="character-no-spaces-count"></li>
+    <li id="characterCounExcludingSpaces">Number of Characteres Excluding Spaces :</li>
+    <li id="numofCharactersExcludingSpaces" data-testid="character-no-spaces-count"></li>
   </h4>
 
 
   <h5 class="slackey-regular">
 
-  <li id="AverageWordLength"> Average Word Length :</li>
-  <li id="numberofaverageWordlength" data-testid="word-length-average"></li>
+    <li id="AverageWordLength"> Average Word Length :</li>
+    <li id="numberofaverageWordlength" data-testid="word-length-average"></li>
   </h5>
 
 
   <h6 class="slackey-regular">
 
-  <li id="NumberCount"> Number Count :</li>
-  <li id="numberofnumbercount" data-testid="number-count"></li>
+    <li id="NumberCount"> Number Count :</li>
+    <li id="numberofnumbercount" data-testid="number-count"></li>
   </h6>
 
 
   <h7 class="slackey-regular">
 
-  <li id="NumberSum"> Numbers Sum :</li>
-  <li id="numberofnumbersum" data-testid="number-sum"></li>
+    <li id="NumberSum"> Numbers Sum :</li>
+    <li id="numberofnumbersum" data-testid="number-sum"></li>
 
   </h7>
-    
 
 
-  
+
+
   <script type="module" src="index.js"></script>
 
 </body>

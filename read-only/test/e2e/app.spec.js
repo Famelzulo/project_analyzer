@@ -74,6 +74,7 @@ test.describe('Para un texto números decimales:', () => {
 
   test('Suma números: 2.9', async ({ page }) => {
     await expect(page.locator('li[data-testid="number-sum"]:has-text("2.9")')).toBeVisible();
+    
   });
 });
 
@@ -96,10 +97,10 @@ test.describe('Para un texto sin números válidos:', () => {
 });
 
 test.describe('Botón:', () => {
-  
+
   test.beforeEach(async ({ page }) => {
     await page.goto('http://localhost:3000/');
-    const textarea = await page.locator('textarea[name="user-input"]');  
+    const textarea = await page.locator('textarea[name="user-input"]');
     await textarea.click();
     await textarea.type(TEST_TEXT_NO_NUMBERS);
   });
@@ -117,7 +118,7 @@ test.describe('Botón:', () => {
 test.skip('Opcional:', () => {
   const TEST_TEXT_SPACES = '       ';
   const TEST_TEXT_PUNCTUATION_MARKS = '.,;:"«»[]{}()¿?¡!-';
-  
+
   test.describe('Para un texto con sólo signos de puntuación:', () => {
 
     test.beforeEach(async ({ page }) => {

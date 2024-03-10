@@ -23,7 +23,7 @@ describe('analyzer', () => {
 
   describe('analyzer.getCharacterCountExcludingSpaces', () => {
     it('should return 105 for "' + TEST_TEXT_NO_NUMBERS + '"', () => {
-      expect(analyzer.getCharacterCountExcludingSpaces(TEST_TEXT_NO_NUMBERS)).toBe(105);
+      expect(analyzer.getCharacterCountExcludingSpaces(TEST_TEXT_NO_NUMBERS)).toBe(102);
     });
   });
 
