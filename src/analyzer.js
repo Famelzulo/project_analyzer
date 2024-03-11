@@ -1,8 +1,5 @@
-const stylesPath = document.querySelector('link[rel="stylesheet"]').getAttribute('href');
-const style = fs.readFileSync('./src/' + stylesPath, 'utf-8');
-const { rules } = css.parse(style).stylesheet; 
- 
- const analyzer = {
+
+const analyzer = {
   getWordCount: (text) => {
     text = text.trim();
     const words = text.split(" ");
@@ -83,7 +80,7 @@ const { rules } = css.parse(style).stylesheet;
       for (let i = 0; i < word.length; i++) {
         const code = word.charCodeAt(i);
         if ((code > 47 && code < 58) || (code === 46)) {
-          continue 
+          continue
         } else {
           return false;
         }

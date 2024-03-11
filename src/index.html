@@ -1,73 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<header>
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Text Analyzer</title>
   <link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
-
-
   <link rel="stylesheet" href="style.css">
-
   <style>
-    body {
-      font-family: "Slackey", sans-serif;
-    }
-  </style>
 
-</header>
+  </style>
+</head>
 
 <body class="body">
-
-  <script type="module" src="index.js"></script>
-
-  <h1 class="slackey-regular">Analyzer Text</h1>
-  <!--indicacion para poner la fuente de lededicar mas tiempo para  prueba y error,tra-->
+  <header>
+    <h1>Analizador de Texto</h1>
+  </header>
 
   <div class="container">
-    <textarea id="textInput" rows="5" cols="50" placeholder="Enter text here" class="slackey-regular"
-      name="user-input"></textarea>
-
+    <textarea rows="5" cols="50" placeholder="Enter text here" name="user-input"></textarea>
   </div>
 
-  <input type="button" value="Reset data" id="reset-button" />
-  
-<h2 class="slackey-regular">
-  
-  <ul class="results">
+  <!-->
+    <input type="button" value="Reset data" id="reset-button" />--->
 
-    <li id="wordCountResult">Number of words: </li>
-    <li id="numberofWords" data-testid="word-count"></li>
+    <button type="button" id="reset-button">Reset data</button>
 
 
-    <li id="charactercount">Number of Characters :</li>
-    <li id="numofCharacters" data-testid="character-count"></li>
-
-
-    <li id="characterCounExcludingSpaces">Number of Characteres Excluding Spaces :</li>
-    <li id="numofCharactersExcludingSpaces" data-testid="character-no-spaces-count"></li>
-
-
-    <li id="AverageWordLength"> Average Word Length :</li>
-    <li id="numberofaverageWordlength" data-testid="word-length-average"></li>
-
-
-    <li id="NumberCount"> Number Count :</li>
-    <li id="numberofnumbercount" data-testid="number-count"></li>
-
-
-    <li id="NumberSum"> Numbers Sum :</li>
-    <li id="numberofnumbersum" data-testid="number-sum"></li>
-
-
-  </ul>
-
-</h2>
-
+  <h2>
+    <ul class ="results">
+      <li class = "some-class"  data-name ="numberofWords" data-testid="word-count">Number of words:</li>
+      <li class = "some-class"  data-name ="numofCharacters" data-testid="character-count">Number of Characters :</li>
+      <li class = "some-class"  data-name ="numofCharactersExcludingSpaces" data-testid="character-no-spaces-count">Number of Characters Excluding Spaces :</li>
+      <li class = "some-class"  data-name ="numberofaverageWordlength" data-testid="word-length-average">Average Word Length :</li>
+      <li class = "some-class"  data-name ="numberofnumbercount" data-testid="number-count">Number Count :</li>
+      <li class = "some-class"  data-name ="numberofnumbersum" data-testid="number-sum">Numbers Sum :</li>
+    </ul>
+  </h2>
 
   <script type="module" src="index.js"></script>
 
+  <footer>
+    <p>By Famel</p>
+  </footer>
 </body>
 
 </html>
