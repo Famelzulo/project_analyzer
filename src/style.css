@@ -1,136 +1,97 @@
-html{
+/* style.css */
+
+/* Definir la fuente de letras */
+
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
+    font-family: "Slackey", sans-serif;
     font-size: 16px;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
 
-const style.slackey-regular {
-    font-family: "Slackey", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
 
 body {
-    background-image: url("https://i.pinimg.com/564x/83/d0/ae/83d0ae2221ae4e3a8b7e348d54fa023e.jpg"); /* URL de la imagen */
-    background-size:cover; /* Ajustar tamaño de la imagen para cubrir completamente */
+    background-image: url("https://i.pinimg.com/564x/83/d0/ae/83d0ae2221ae4e3a8b7e348d54fa023e.jpg");
+    /* URL de la imagen */
+    background-size: cover;
+    /* Ajustar tamaño de la imagen para cubrir completamente */
     background-repeat: no-repeat;
-    
-    filter: brightness(110%) contrast(120%); /* Aplicar filtros de imagen */
+
+    filter: brightness(110%) contrast(120%);
+    /* Aplicar filtros de imagen */
 
 }
 
-
-
-h1{
+/* Estilos para el encabezado */
+h1 {
     text-align: center;
     text-decoration: underline;
     color: white;
-    font-family: 'SpongeBob Font Condensed', sans-serif;
-    font-size: 3em;
 
+    font-size: 3em;
 }
 
-/* styles.css */
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+/* Estilos para el contenedor del textarea */
 .container {
-    text-align: center; /* Alinear contenido al centro */
+    text-align: center;
+
 }
 
 #textInput {
-    /* Estilos para el textarea */
-    font-family: "Slackey", sans-serif; /* Establecer la fuente */
-    font-size: 1.2em; /* Establecer el tamaño de la fuente */
-    color:white; /* Establecer el color del texto */
-    background-color: #2f84f6; /* Establecer el color de fondo */
-    border: 4px solid blueviolet; /* Establecer el borde */
-    padding: 1px; /* Establecer el relleno */
-    display: inline-block; /* Hacer que el textarea se comporte como bloque en línea */
-    margin: 0 auto; /* Centrar horizontalmente utilizando margen automático */
-    border-radius: 15px;
 
 
-    background-image: url("https://i.pinimg.com/564x/d5/fd/41/d5fd415d924e8bb032ceb820e0dc4e95.jpg");
-    background-size: 5em;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-}
+    font-family: "Slackey", sans-serif;
 
-
-/*textarea{
     font-size: 1.2em;
-    text-align: center;
-    color: #F28C0F;
-    border: 20px;
-    padding: 20px;
-    border: 15px;
-    background-color: pink;
-    justify-items: center;
-    align-items: center;
-    display: flex;
-    margin: 15 ;
+
+    color: white;
+
+    background-color: #2f84f6;
+
+    border: 4px solid blueviolet;
+
+    padding: 1px;
+
+    display: inline-block;
+
+    margin: 0 auto;
+
+    border-radius: 15px;
 }
 
-/* styles.css */
-/*body, html {
-    height: 50%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Estilos para el botón de reset */
+#reset-button {
+    font-family: "Slackey", sans-serif;
+    font-size: 1.2em;
+    color: white;
+    background-color: #2f84f6;
+    border: 4px solid blueviolet;
+    padding: 10px 20px;
+    border-radius: 15px;
 }
 
-/*.container {
-    width: 80%; /* Opcional: ajusta el tamaño del contenedor según sea necesario */
-    /*max-width: 600px; /* Opcional: ajusta el tamaño máximo del contenedor */
-
-
-
-
-
-h2{
+/* Estilos para los resultados */
+.results {
+    list-style-type: none;
     text-align: center;
     font-size: 1.2em;
     color: white;
-    text-decoration-style: dashed;
     
 }
 
-h3{
-    text-align:center;
-    font-size: 1.2em;
-    color: white;
-    text-decoration-style: dashed;
+/* Estilos para los ítems de resultados */
+.results li {
+    margin-bottom: 10px;
 }
-
-h4{
-    text-align: center;
-    font-size: 1.2em;
-    color: white;
-    text-decoration-style: dashed;
-}
-
-h5{
-    text-align: center;
-    font-size: 1.2em;
-    color: white;
-    text-decoration-style: dashed;
-}
-
-h6{
-    text-align: center;
-    font-size: 1.2em;
-    color: white;
-    text-decoration-style: dashed;
-}
-
-h7{
-    text-align: center;
-    font-size: 1.2em;
-    color: white;
-    text-decoration-style: dashed;
-}
-
-

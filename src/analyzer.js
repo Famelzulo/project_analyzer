@@ -1,4 +1,8 @@
-const analyzer = {
+const stylesPath = document.querySelector('link[rel="stylesheet"]').getAttribute('href');
+const style = fs.readFileSync('./src/' + stylesPath, 'utf-8');
+const { rules } = css.parse(style).stylesheet; 
+ 
+ const analyzer = {
   getWordCount: (text) => {
     text = text.trim();
     const words = text.split(" ");
