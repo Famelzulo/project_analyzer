@@ -3,7 +3,7 @@
 ## Introducción:
 ¡Bienvenidos! Hoy me complace presentarles mi proyecto llamado "Text Analyzer". En un mundo donde la información es clave, nuestro objetivo es proporcionar una herramienta eficiente para analizar texto de una manera rápida y precisa. ¿Alguna vez te has preguntado cuántas palabras hay en un párrafo, cuántos números contiene, o cuál es la longitud promedio de las palabras? ¡Text Analyzer te ayudará a responder a estas preguntas y más!
 
-##Público Objetivo:
+## Público Objetivo:
 Este proyecto está dirigido a una amplia variedad de usuarios, incluyendo:
 
 ### Estudiantes:
