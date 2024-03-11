@@ -8,7 +8,7 @@ Este proyecto está dirigido a una amplia variedad de usuarios, incluyendo:
 
 ### Estudiantes:
 Para ayudarles a analizar textos académicos y mejorar sus habilidades de escritura.
-### Profesionales:
+#### Profesionales:
 Para analizar informes, documentos legales o cualquier tipo de texto relacionado con su trabajo.
 ### Escritores y Editores:
 Para realizar análisis de texto en sus obras literarias, artículos o blogs.
