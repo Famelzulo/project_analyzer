@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Analyzer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap">
+  <link rel="stylesheet" href="style.css" src ="stylesPath">
+
+  <style>
+
+  </style>
+</head>
+
+<body class="body">
+  <header>
+    <h1>Analizador de Texto</h1>
+  </header>
+
+  <div class="container">
+    <textarea rows="5" cols="50" placeholder="Enter text here" name="user-input"></textarea>
+  </div>
+
+<div class="container">
+    <button type="button" id="reset-button">Reset data</button>
+</div>
+
+  <h2>
+    <ul class ="some-class">
+      <li class = "some-class"  data-name ="numberofWords" data-testid="word-count">Number of words:</li>
+      <li class = "some-class"  data-name ="numofCharacters" data-testid="character-count">Number of Characters :</li>
+      <li class = "some-class"  data-name ="numofCharactersExcludingSpaces" data-testid="character-no-spaces-count">Number of Characters Excluding Spaces :</li>
+      <li class = "some-class"  data-name ="numberofaverageWordlength" data-testid="word-length-average">Average Word Length :</li>
+      <li class = "some-class"  data-name ="numberofnumbercount" data-testid="number-count">Number Count :</li>
+      <li class = "some-class"  data-name ="numberofnumbersum" data-testid="number-sum">Numbers Sum :</li>
+    </ul>
+  </h2>
+
+  <script type="module" src="index.js"></script>
+
+  <footer>
+    <p>By Famel</p>
+  </footer>
+</body>
+
+</html>
